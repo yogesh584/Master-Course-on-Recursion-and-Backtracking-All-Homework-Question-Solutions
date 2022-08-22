@@ -1,0 +1,37 @@
+Types of Recursion : 
+    रिकर्सन (Recursion) मुख्य रूप से दो प्रकार के होते हैं जो इस बात पर निर्भर करता है कि कोई फ़ंक्शन (Function) स्वयं को स्वयं से कॉल करता है या एक से अधिक फ़ंक्शन परस्पर एक दूसरे को कॉल करते हैं।
+        1. Direct Recursion 
+        2. Indirect Recursion
+
+    1. Direct Recursion : 
+        यदि कोई फ़ंक्शन (Function) स्वयं को स्वयं से कॉल करता है। इन्हें आगे चार Types में वर्गीकृत किया जा सकता है
+            1. Tail Recursion
+            2. Head Recursion
+            3. Tree Recursion
+            4. Nested Recursion
+        
+        1. Tail Recursion : 
+            बब्बर भैया ने हमें एक बात बताई कि रिकर्सन में 3 चीजें होती हैं
+                1. Base Case.
+                2. Recursive Relation.
+                3. Processing or Calculation Part.
+            अगर किसी फ़ंक्शन (Function) में रिकर्सिव रालेशन (Recursive Relation.) प्रोसेसिंग पार्ट (Processsing Part) के बाद आता है तो रिकर्सन को Tail Recursion कहा जाता है।
+        
+        2. Head Recursion :
+             अगर किसी फ़ंक्शन (Function) में रिकर्सिव रालेशन (Recursive Relation.) प्रोसेसिंग पार्ट (Processsing Part) के पहले आता है। तो रिकर्सन को Head Recursion कहा जाता है।
+
+        3. Tree Recursion : 
+            ट्री रिकर्सन (Tree Recursion) को समझने के लिए हमें लीनियर रिकर्सन को समझना होगा।
+                1. Liner Recursion : 
+                    यदि एक पुनरावर्ती फ़ंक्शन (Recursive Function) स्वयं को एक बार कॉल करता है तो इसे लीनियर रिकर्सन के रूप में जाना जाता है।
+                यदि कोई पुनरावर्ती फ़ंक्शन (Recursive Function) स्वयं को एक से अधिक बार कॉल करता है तो इसे ट्री रिकर्सन (Tree Recursion) के रूप में जाना जाता है।
+        4. Nested Recursion :
+            इस रिकर्सन में, एक रिकर्सिव फ़ंक्शन पैरामीटर को रिकर्सिव कॉल के रूप में पास करेगा। इसका मतलब है "रिकर्सन के अंदर रिकर्सन"। तो रिकर्सन को Nested Recursion कहा जाता है।
+    
+    2. Indirect Recursion : 
+        इस रिकर्सन में एक से अधिक फंक्शन हो सकते हैं और वे एक दूसरे को सर्कुलर तरीके से कॉल कर रहे हैं। तो रिकर्सन को Indirect Recursion कहा जाता है।
+
+
+Sorce Of Information : GeeksforGeeks
+Link : https://www.geeksforgeeks.org/types-of-recursions/
+

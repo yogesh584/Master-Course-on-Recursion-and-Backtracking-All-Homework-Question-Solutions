@@ -1,0 +1,40 @@
+Types of Recursion :
+    Recursion are mainly of two types depending on whether a function calls itself from within itself or more than one function call one another mutually.
+        1. Direct Recursion
+        2. Indirect Recursion
+
+    1. Direct Recursion :
+        function calls itself from within itself.
+        These can be further categorized into four types : 
+        1. Tail Recursion.
+        2. Head Recursion.
+        3. Tree Recursion.
+        4. Nested Recursion.
+
+        1. Tail Recursion : 
+            Babbar Bhaiya Told us one thing that Recursion have three parts : 
+                1. Base Case.
+                2. Recursive Relation.
+                3. Processing Part / Calculation Part.
+            If Recursive Relation Comes After Processing Part Then Recursion Called. Tail Recursion.
+        
+        2. Head Recursion :
+            If Recursive Relation Comes Before Processing Part Then Recursion Called. Tail Recursion.
+        
+        3. Tree Recursion :
+            To understand Tree Recursion let’s first understand Linear Recursion.
+
+            Linear Recursion :
+                If a recursive function calling itself for one time then it’s known as Linear Recursion.
+            if a recursive function calling itself for more than one time then it’s known as Tree Recursion.
+        
+        4. Nested Recursion :
+             In this recursion, a recursive function will pass the parameter as a recursive call. That means “recursion inside recursion”. Called Nested Recursion.
+    
+    2. Indirect Recursion :
+        In this recursion, there may be more than one functions and they are calling one another in a circular manner.
+
+
+Source : GeeksforGeeks
+Link : https://www.geeksforgeeks.org/types-of-recursions/
+
