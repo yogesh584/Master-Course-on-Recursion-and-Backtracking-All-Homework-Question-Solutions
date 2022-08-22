@@ -19,7 +19,7 @@ Types of Recursion :
             If Recursive Relation Comes After Processing Part Then Recursion Called. Tail Recursion.
         
         2. Head Recursion :
-            If Recursive Relation Comes Before Processing Part Then Recursion Called. Tail Recursion.
+            If Recursive Relation Comes Before Processing Part Then Recursion Called. Head Recursion.
         
         3. Tree Recursion :
             To understand Tree Recursion let’s first understand Linear Recursion.
