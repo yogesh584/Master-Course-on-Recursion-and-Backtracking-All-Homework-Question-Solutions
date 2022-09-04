@@ -1,5 +1,6 @@
 /*
     SUBSEQUENCE IS LIKE POWER SET
+        APPROACH 1 :
 */
 
 #include <iostream>

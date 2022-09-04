@@ -1,5 +1,6 @@
 /*
     ADD TWO STRINGS.
+        APPROACH 1 :
 */
 #include <iostream>
 #include <algorithm>
